@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#2c2c2c"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.act_SplashScreen">
+
+    <ImageView
+
+        android:layout_width="46dp"
+        android:layout_height="54dp"
+        android:layout_above="@+id/border"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="20sp"
+        android:layout_toRightOf="@+id/shape"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_shift" />
+
+    <TextView
+        android:id="@+id/shape"
+
+
+        android:layout_marginStart="85dp"
+        android:layout_above="@+id/border"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="SHAPE"
+        android:textColor="@color/white"
+        android:textSize="48sp" />
+
+
+    <TextView
+        android:id="@+id/border"
+
+        android:layout_centerInParent="true"
+        android:layout_marginStart="70dp"
+        android:layout_width="237dp"
+        android:layout_height="5dp"
+        android:background="@color/orange"
+        android:textColor="@color/white"
+        />
+
+
+    <TextView
+        android:id="@+id/shift"
+
+        android:layout_below="@+id/border"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="85dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="SHIFT"
+        android:textColor="@color/white"
+        android:textSize="48sp" />
+
+</RelativeLayout>

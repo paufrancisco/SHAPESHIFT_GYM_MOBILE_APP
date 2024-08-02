@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "984143880625",
+    "project_id": "shape-shift-e2b07",
+    "storage_bucket": "shape-shift-e2b07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984143880625:android:0e7c50a2c2ad380aba9d90",
+        "android_client_info": {
+          "package_name": "com.jtdev.shape_shift"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRMfNisvKVUWL3EP70eT3h37-uK8C2Brk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
