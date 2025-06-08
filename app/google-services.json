@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "984143880625",
-    "project_id": "shape-shift-e2b07",
-    "storage_bucket": "shape-shift-e2b07.appspot.com"
+    "project_number": "998921152678",
+    "project_id": "shape-shift-1bd48",
+    "storage_bucket": "shape-shift-1bd48.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:984143880625:android:0e7c50a2c2ad380aba9d90",
+        "mobilesdk_app_id": "1:998921152678:android:91c28ec4757bdccb00ec67",
         "android_client_info": {
           "package_name": "com.jtdev.shape_shift"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDRMfNisvKVUWL3EP70eT3h37-uK8C2Brk"
+          "current_key": "AIzaSyB0tkaPmHpE7VVaMIyQiYGZY01q1a8ZwOA"
         }
       ],
       "services": {

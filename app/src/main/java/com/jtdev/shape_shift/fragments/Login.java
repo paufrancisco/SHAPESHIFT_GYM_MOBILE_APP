@@ -45,19 +45,34 @@ public class Login extends Fragment {
         signup = view.findViewById(R.id.signup);
         mAuth = FirebaseAuth.getInstance();
 
+
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (!validateEmail() || !validatePass()) {
+                // Bypass login logic for testing
+                Toast.makeText(requireContext(), "Login bypassed!", Toast.LENGTH_SHORT).show();
 
-                } else {
-                    mAuth = FirebaseAuth.getInstance();
-                    String userEmail = email.getText().toString().trim();
-                    String userPass = password.getText().toString().trim();
-                    checkUser(userEmail,userPass,mAuth,requireContext());
-                }
+                // Go to the next screen (replace with your actual Intent or Navigation code)
+                Intent intent = new Intent(requireContext(), act_dashBoard.class); // Replace with your real activity
+                startActivity(intent);
+                requireActivity().finish(); // Optional: close login screen
             }
         });
+
+
+//        btnLogin.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                if (!validateEmail() || !validatePass()) {
+//
+//                } else {
+//                    mAuth = FirebaseAuth.getInstance();
+//                    String userEmail = email.getText().toString().trim();
+//                    String userPass = password.getText().toString().trim();
+//                    checkUser(userEmail,userPass,mAuth,requireContext());
+//                }
+//            }
+//        });
 
         forgot.setOnClickListener(new View.OnClickListener() {
             @Override

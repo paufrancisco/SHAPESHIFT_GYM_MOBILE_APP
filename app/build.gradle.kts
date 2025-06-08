@@ -5,11 +5,12 @@ plugins {
     id("com.android.application")
     id("com.google.gms.google-services")
 
+
 }
 
 android {
     namespace = "com.jtdev.shape_shift"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.jtdev.shape_shift"
@@ -42,8 +43,10 @@ android {
 }
 
 dependencies {
+
     implementation ("com.google.firebase:firebase-auth:23.0.0")
     implementation("com.google.firebase:firebase-database:20.3.1")
+
 
 
     implementation("androidx.appcompat:appcompat:1.6.1")
@@ -53,6 +56,10 @@ dependencies {
 
     //for giph
     implementation ("com.github.bumptech.glide:glide:4.12.0")
+    implementation("com.google.firebase:firebase-auth:23.2.1")
+    implementation("androidx.credentials:credentials:1.5.0")
+    implementation("androidx.credentials:credentials-play-services-auth:1.5.0")
+    implementation("com.google.android.libraries.identity.googleid:googleid:1.1.1")
     annotationProcessor ("com.github.bumptech.glide:compiler:4.12.0")
 
 
