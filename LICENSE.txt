@@ -1,0 +1,13 @@
+Copyright © 2025 Jay Tinosa, Jamir Campos, Paulo Faustiniel Angelo Francisco,
+Jun Daniel Quindao, Joseph Rojas, Mateo Penit Jr.
+
+All rights reserved.
+
+This software is the intellectual property of the authors listed above.  
+Unauthorized copying, modification, distribution, or use of this software,  
+in whole or in part, is strictly prohibited.
+
+You may not use, reproduce, distribute, or create derivative works from this software  
+without express written permission from the owners.
+
+This software is provided "as is", without warranty of any kind.
