@@ -50,7 +50,7 @@ Shape-Shift is an AI-assisted fitness app designed to help users stay consistent
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE.txt) file for more information.
+This project is licensed under the propriety License. See the [LICENSE](./LICENSE.txt) file for more information.
 
 ---
 
